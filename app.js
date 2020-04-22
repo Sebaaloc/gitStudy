@@ -1,8 +1,6 @@
-console.log('hello')
-console.log('aalarcon')
-console.log('sebas')
-console.log('ochoa')
-console.log('ochoa')
-console.log('ochoa')
-console.log('caro')
-console.log('hola')
+const express = require('express');
+const app = express();
+
+app.listen(3000, () => {
+    console.log('server listening on 3000')
+})
